@@ -8,6 +8,6 @@ public class ApiController {
 
     @GetMapping("/requests")
     public String requests() {
-        return "Check Prometehus";
+        return "Welcome to Application Operations - Custom Metrics Demo";
     }
 }
